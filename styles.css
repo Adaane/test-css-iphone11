@@ -1,0 +1,416 @@
+/* reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+	font-family:'SF Pro Display';
+	font-style:normal;
+	src: url("fonts/sf-pro-display_semibold.woff2");
+}
+
+@font-face {
+	font-family:'SF Pro Text';
+    font-style:normal;
+	src: url("fonts/sf-pro-text_regular.woff2");
+}
+
+
+/**/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    line-height: 1.47059;
+    letter-spacing: -.022em;
+    font-family: "SF Pro Text","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #1d1d1f;
+    min-width: 320px;
+    text-align: left;
+    background: #fff;
+}
+
+main {
+    margin-top: -116px;
+    border-top: 116px solid black;
+    position: relative;
+}
+
+.section-iphone{
+    overflow: hidden;
+    text-align: center;
+}
+
+.wrapper-iphone-11-pro {
+    background: #000;
+}
+
+.wrapper-iphone-11-pro .content-wrapper {
+    width: 980px;
+    position: relative;
+    margin: 0 auto;
+    color: #f5f5f7;
+}
+
+.wrapper-iphone-11-pro .flex-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wrapper-iphone-11-pro .iphone-headline {
+    margin-top: 14px;
+}
+
+.wrapper-iphone-11-pro .copy-wrapper {
+    margin-top: 81px;
+    max-width: 100%;
+}
+
+.section-iphone .copy-wrapper .iphone-cta {
+    margin-top: 18px;
+}
+
+.wrapper-iphone-11-pro .copy-wrapper {
+    margin-top: 81px;
+}
+
+.typography-iphone-emphasis {
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.wrapper-iphone-11-pro .copy-wrapper .iphone-emphasis, .wrapper-iphone-11-pro .copy-wrapper .iphone-headline, .wrapper-iphone-11-pro .copy-wrapper .sub-headline {
+    color: #f5f5f7;
+}
+
+.typography-headline {
+    font-size: 48px;
+    line-height: 1.08349;
+    font-weight: 600;
+    letter-spacing: -.003em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.large-12 {
+    flex-basis: 100%;
+    max-width: 100%;
+}
+
+.wrapper-iphone-11-pro .iphone-bgimage {
+    animation: fadein 1.5s ease-in;
+    width: 1518px;
+    height: 780px;
+    background-size: 1518px 780px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/af/images/overview/hero/hero_iphone11_pro__je9i781j99u2_large_2x.jpg");
+}
+
+@keyframes fadein {
+    0% {
+      opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.theme-dark a, .theme-dark .link {
+    color: #2997ff;
+}
+
+a.icon-wrapper {
+    text-decoration: none;
+}
+
+a:link, a:visited, .link:link, .link:visited {
+    text-decoration: none;
+}
+
+.section-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+}
+
+.wrapper-iphone-11 {
+    padding-top: 163px;
+    padding-bottom: 150px;
+    
+}
+
+.wrapper-iphone-11 .copy-wrapper {
+    margin-top: 51px;
+    z-index: 1;
+}
+
+.large-4 {
+    flex-basis: 33.33333%;
+    max-width: 33.33333%;
+}
+
+.large-8 {
+    flex-basis: 66.66667%;
+    max-width: 66.66667%;
+}
+
+.wrapper-iphone-11 .iphone-headline {
+    margin-top: 0;
+    padding-top: 9px;
+}
+
+a {
+    color: #06c;
+}
+
+.copy-wrapper .sub-headline {
+    margin-top: 27px;
+}
+
+.section-iphone .copy-wrapper .iphone-cta {
+    margin-top: 18px;
+}
+
+a.icon-wrapper {
+    text-decoration: none;
+}
+
+.copy-wrapper .iphone-cta a:not(:only-child):not(:first-child) {
+    margin-left: 26px;
+}
+a.icon-wrapper {
+    text-decoration: none;
+}
+
+.section-content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 980px;
+}
+
+.wrapper-iphone-11 .iphone-bgimage {
+    width: 796px;
+    height: 819px;
+    background-size: 796px 819px;
+    background-repeat: no-repeat;
+    background-image: url("https://www.apple.com/v/iphone/home/af/images/overview/hero/hero_iphone11__cuduq393pp8i_large_2x.jpg");
+    margin-left: 6px;
+}
+
+
+/* MEDI-QUERIES MEDIUM */
+
+
+@media only screen and (max-width: 1068px){
+    .wrapper-iphone-11-pro .copy-wrapper {
+        margin-top: 95px;
+    }
+    .wrapper-iphone-11-pro .content-wrapper {
+        margin-left: auto;
+        margin-right: auto;
+        width: 692px;
+    }
+
+    .typography-iphone-emphasis {
+        font-size: 28px;
+        line-height: 1.14286;
+        font-weight: 600;
+        letter-spacing: .007em;
+    }
+
+    .typography-headline {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+    }
+
+    .section-iphone .copy-wrapper .sub-headline {
+        margin-top: 17px;
+    }
+
+    .wrapper-iphone-11-pro .iphone-bgimage {
+        width: 1068px;
+        height: 484px;
+        background-size: 1068px 484px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/iphone/home/af/images/overview/hero/hero_iphone11_pro__je9i781j99u2_medium_2x.jpg");
+    }
+    .wrapper-iphone-11 {
+        padding-top: 91px;
+        padding-bottom: 76px;
+    }
+    .section-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 692px;
+    }
+    .wrapper-iphone-11 .copy-wrapper {
+        margin-top: 0;
+    }
+    .medium-5 {
+        flex-basis: 41.66667%;
+        max-width: 41.66667%;
+    }
+    .medium-7 {
+        flex-basis: 58.33333%;
+        max-width: 58.33333%;
+    }
+    .typography-iphone-emphasis {
+        font-size: 28px;
+        line-height: 1.14286;
+        font-weight: 600;
+        letter-spacing: .007em;
+    }
+    .wrapper-iphone-11 .iphone-headline {
+        padding-top: 5px;
+    }
+    .wrapper-iphone-11 .iphone-headline {
+        margin-top: 0;
+        padding-top: 9px;
+    }
+    .typography-headline {
+        font-size: 40px;
+        line-height: 1.1;
+        font-weight: 600;
+        letter-spacing: 0em;
+    }
+    .section-iphone .copy-wrapper .sub-headline {
+        margin-top: 17px;
+    }
+    .copy-wrapper .iphone-cta a:not(:only-child):not(:first-child) {
+        margin-left: 20px;
+    }
+
+    .wrapper-iphone-11 .iphone-bgimage {
+        width: 501px;
+        height: 515px;
+        background-size: 501px 515px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/iphone/home/af/images/overview/hero/hero_iphone11__cuduq393pp8i_medium_2x.jpg");
+        margin-top: 85px;
+        margin-left: -6px;
+    }
+}
+
+/* MEDI-QUERIES SMALL */
+
+
+@media only screen and (max-width: 734px) {
+    .wrapper-iphone-11-pro .content-wrapper {
+        margin: 0 auto;
+        width: 87.5%;
+    }
+    .wrapper-iphone-11-pro .copy-wrapper {
+        margin-top: 76px;
+    }
+    .small-11 {
+        flex-basis: 91.66667%;
+        max-width: 91.66667%;
+    }
+    .wrapper-iphone-11-pro .iphone-bgimage {
+        width: 736px;
+        height: 321px;
+        margin-top: 32px;
+        background-size: 736px 321px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/iphone/home/af/images/overview/hero/hero_iphone11_pro__je9i781j99u2_small_2x.jpg");
+    }
+    .typography-iphone-emphasis {
+        font-size: 21px;
+        line-height: 1.19048;
+        font-weight: 600;
+        letter-spacing: .011em;
+    }
+    .wrapper-iphone-11-pro .iphone-headline {
+        margin-top: 11px;
+    }
+    .typography-headline {
+        font-size: 32px;
+        line-height: 1.125;
+        font-weight: 600;
+        letter-spacing: .004em;
+    }
+    .wrapper-iphone-11 {
+        padding-top: 63px;
+        padding-bottom: 57px;
+    }
+    .section-content {
+        margin-left: auto;
+        margin-right: auto;
+        width: 87.5%;
+    }
+    .small-centered {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .small-12 {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    .wrapper-iphone-11 .iphone-bgimage {
+        width: 321px;
+        height: 330px;
+        background-size: 321px 330px;
+        background-repeat: no-repeat;
+        background-image: url("https://www.apple.com/v/iphone/home/af/images/overview/hero/hero_iphone11__cuduq393pp8i_medium_2x.jpg");
+        left: 50%;
+        margin-left: -160.5px;
+        position: relative;
+        margin-top: 32px;
+    }
+}
